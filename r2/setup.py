@@ -83,7 +83,6 @@ setup(
         "unidecode",
         "PyYAML",
         "Pillow",
-        "pylibmc==1.2.2",
         "webob",
         "webtest",
         "python-snappy",

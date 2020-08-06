@@ -81,7 +81,7 @@ def keyiter(stream=stdin):
     return imap(valiter, groups)
 
 def emit(vals):
-    print '\t'.join(map(str, vals))
+    print('\t'.join(map(str, vals)))
 
 def emit_all(vals):
     for val in vals:

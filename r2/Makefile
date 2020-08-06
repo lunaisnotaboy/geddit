@@ -187,7 +187,6 @@ define JS_MODULE_TEMPLATE
 $(JS_MODULE_OUTPUTS_$(1)): $(JS_MODULE_DEPS_$(1)) r2/lib/js.py
 	# remove mangled output symlinks, similar to above.
 	rm -f $(JS_MODULE_OUTPUTS_$(1))
-	$(PYTHON) r2/lib/js.py build_module "$(1)"
 	touch $$@
 endef
 
